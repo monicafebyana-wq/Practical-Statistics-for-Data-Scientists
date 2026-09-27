@@ -4,7 +4,7 @@
 
 ### Tugas Individu
 
-### Mata Kuliah Machine Learning dan Deep Learning
+### Mata Kuliah Deep Learning
 
 
 ---
@@ -50,9 +50,9 @@ untuk membantu memahami konsep dan implementasi statistik.
 
 # Struktur Repository
 
+```text
 Practical-Statistics-for-Data-Scientists/
 
-│
 ├── Chapter 1.ipynb
 ├── Chapter 2.ipynb
 ├── Chapter 3.ipynb
@@ -63,6 +63,7 @@ Practical-Statistics-for-Data-Scientists/
 ├── requirements.txt
 │
 └── README.md
+```
 
 
 
