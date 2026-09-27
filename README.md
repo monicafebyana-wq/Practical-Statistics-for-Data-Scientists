@@ -11,9 +11,9 @@
 
 # Informasi Mahasiswa
 
-**Nama:**  
+**Nama:**  Monica Febyana
 
-**NIM:**  
+**NIM:**  101032330068
 
 
 ---
