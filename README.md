@@ -1,46 +1,55 @@
 # Practical Statistics for Data Scientists
 
-## Code Reproduction and Theoretical Explanation
+## Reproduksi Kode dan Penjelasan Konsep Teori
 
-### Individual Assignment  
-### Machine Learning and Deep Learning Class
+### Tugas Individu
+
+### Mata Kuliah Machine Learning dan Deep Learning
+
+
+---
+
+# Informasi Mahasiswa
+
+**Nama:**  
+
+**NIM:**  
 
 
 ---
 
-## Student Information
+# Tentang Repository Ini
 
-**Name:** Monica Febyana
-**NIM:** 101032330068
+Repository ini berisi reproduksi kode dan penjelasan konsep teori
+berdasarkan buku:
 
----
+**Practical Statistics for Data Scientists**
 
-## About This Repository
+**Penulis:** Peter Bruce, Andrew Bruce, dan Peter Gedeck
 
-This repository contains code reproduction and theoretical explanations
-from the book:
 
-**Practical Statistics for Data Scientists**  
-**Authors:** Peter Bruce, Andrew Bruce, and Peter Gedeck
+Tujuan dari repository ini adalah untuk memahami konsep-konsep dasar
+statistik yang digunakan dalam bidang data science dan machine learning
+melalui implementasi menggunakan Python.
 
-The purpose of this repository is to deepen understanding of fundamental
-statistical concepts used in data science and machine learning through
-Python implementation.
 
-Each chapter contains:
+Setiap chapter berisi:
 
-- Explanation of statistical concepts
-- Python implementation
-- Data analysis process
-- Visualization
-- Interpretation of results
+- Penjelasan konsep statistik
+- Implementasi kode menggunakan Python
+- Proses analisis data
+- Visualisasi data
+- Interpretasi hasil analisis
 
-The notebook structure follows the main topics discussed in the book
-while providing additional explanations to improve understanding.
+
+Struktur notebook mengikuti topik utama yang terdapat dalam buku
+*Practical Statistics for Data Scientists* dengan tambahan penjelasan
+untuk membantu memahami konsep dan implementasi statistik.
 
 ---
 
-# Repository Structure
+# Struktur Repository
+
 Practical-Statistics-for-Data-Scientists/
 
 │
@@ -56,47 +65,53 @@ Practical-Statistics-for-Data-Scientists/
 └── README.md
 
 
+
 ---
 
-# Chapter Overview
+# Ringkasan Chapter
 
-## Chapter 1: Exploratory Data Analysis
+## Chapter 1: Exploratory Data Analysis (Analisis Data Eksploratif)
 
-This chapter introduces Exploratory Data Analysis (EDA) as the first
-step in understanding a dataset.
+Chapter ini membahas tahap awal dalam analisis data, yaitu
+Exploratory Data Analysis (EDA).
 
-The main topics covered include:
+EDA digunakan untuk memahami karakteristik dataset sebelum melakukan
+pemodelan statistik atau machine learning.
 
-- Structured data and data types
-- Rectangular data representation
-- Measures of location
+Materi yang dibahas meliputi:
+
+- Struktur data dan tipe data
+- Representasi data berbentuk tabel
+- Ukuran pemusatan data:
   - Mean
   - Median
-  - Trimmed mean
-  - Weighted mean
-- Measures of variability
-  - Standard deviation
+  - Trimmed Mean
+  - Weighted Mean
+- Ukuran penyebaran data:
+  - Standard Deviation
   - Variance
-  - Interquartile range
-- Data distribution visualization
+  - Interquartile Range (IQR)
+- Visualisasi distribusi data:
   - Histogram
   - Boxplot
-  - Density plot
-- Correlation analysis
-- Scatter plot visualization
+  - Density Plot
+- Analisis korelasi
+- Visualisasi hubungan antar variabel menggunakan scatter plot
 
-The objective of this chapter is to understand the characteristics,
-patterns, and relationships within data before performing statistical
-modeling.
+
+Tujuan chapter ini adalah memahami pola, karakteristik, dan hubungan
+antar variabel dalam dataset sebelum melakukan analisis statistik
+lebih lanjut.
 
 ---
 
-# Chapter 2: Data and Sampling Distributions
+# Chapter 2: Data and Sampling Distributions  
+## (Data dan Distribusi Sampling)
 
-This chapter discusses the relationship between population and sample
-data.
+Chapter ini membahas hubungan antara populasi dan sampel dalam proses
+analisis statistik.
 
-The main topics covered include:
+Materi yang dibahas meliputi:
 
 - Random sampling
 - Sample bias
@@ -104,59 +119,64 @@ The main topics covered include:
 - Central Limit Theorem
 - Standard error
 - Bootstrap resampling
-- Confidence interval estimation
-- Normal distribution
-- t-distribution
-- Binomial distribution
-- Poisson distribution
-- Exponential distribution
+- Confidence interval
+- Distribusi normal
+- Distribusi t
+- Distribusi binomial
+- Distribusi Poisson
+- Distribusi exponential
 
-This chapter explains how statistical inference can be performed using
-samples to estimate characteristics of a larger population.
+
+Chapter ini menjelaskan bagaimana sampel dapat digunakan untuk
+memperkirakan karakteristik populasi serta memahami tingkat
+ketidakpastian dalam hasil analisis statistik.
 
 ---
 
-# Chapter 3: Statistical Experiments and Significance Testing
+# Chapter 3: Statistical Experiments and Significance Testing  
+## (Eksperimen Statistik dan Pengujian Signifikansi)
 
-This chapter focuses on statistical experiments and methods for making
-decisions based on data.
+Chapter ini membahas penggunaan eksperimen statistik untuk mengambil
+keputusan berdasarkan data.
 
-The main topics covered include:
+Materi yang dibahas meliputi:
 
-- A/B testing
-- Experimental design
+- A/B Testing
+- Perancangan eksperimen
 - Hypothesis testing
-- Null hypothesis and alternative hypothesis
+- Null hypothesis dan alternative hypothesis
 - Permutation test
-- p-value interpretation
+- Interpretasi p-value
 - Statistical significance
-- t-test
+- t-Test
 - Multiple testing
 - Analysis of Variance (ANOVA)
 - Chi-square test
 - Multi-arm bandit algorithm
-- Statistical power and sample size estimation
+- Statistical power dan sample size estimation
 
-The objective of this chapter is to understand whether observed
-differences in data represent meaningful effects or occur due to random
-variation.
+
+Tujuan chapter ini adalah memahami apakah perbedaan yang ditemukan
+dalam data merupakan efek yang nyata atau hanya terjadi akibat
+variasi acak.
 
 ---
 
-# Chapter 4: Regression and Prediction
+# Chapter 4: Regression and Prediction  
+## (Regresi dan Prediksi)
 
-This chapter discusses regression methods used for explanation and
-prediction.
+Chapter ini membahas metode regresi yang digunakan untuk menjelaskan
+hubungan antar variabel dan melakukan prediksi.
 
-The main topics covered include:
+Materi yang dibahas meliputi:
 
 - Simple linear regression
-- Regression equation
-- Fitted values and residuals
+- Persamaan regresi
+- Fitted values dan residuals
 - Multiple linear regression
 - Model assessment
 - Cross validation
-- Model selection
+- Model selection:
   - AIC
   - BIC
   - Stepwise regression
@@ -166,7 +186,7 @@ The main topics covered include:
 - Correlated predictors
 - Multicollinearity
 - Interaction effects
-- Regression diagnostics
+- Regression diagnostics:
   - Residual analysis
   - Outlier detection
   - Leverage
@@ -176,12 +196,14 @@ The main topics covered include:
 - Spline regression
 - Generalized Additive Models (GAM)
 
-This chapter demonstrates how regression models can be built,
-evaluated, and improved for predictive analysis.
+
+Chapter ini menunjukkan bagaimana model regresi dibangun,
+dievaluasi, dan dikembangkan untuk menghasilkan prediksi berdasarkan
+data.
 
 ---
 
-# Technologies Used
+# Teknologi yang Digunakan
 
 - Python
 - Jupyter Notebook
@@ -197,7 +219,10 @@ evaluated, and improved for predictive analysis.
 
 ---
 
-# References
+# Referensi
+
 Bruce, P., Bruce, A., & Gedeck, P. (2020).
-Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python.
+
+**Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python.**
+
 O'Reilly Media.
