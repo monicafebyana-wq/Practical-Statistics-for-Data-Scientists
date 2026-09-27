@@ -105,8 +105,7 @@ lebih lanjut.
 
 ---
 
-# Chapter 2: Data and Sampling Distributions  
-## (Data dan Distribusi Sampling)
+## Chapter 2: Data and Sampling Distributions (Data dan Distribusi Sampling)
 
 Chapter ini membahas hubungan antara populasi dan sampel dalam proses
 analisis statistik.
@@ -133,8 +132,7 @@ ketidakpastian dalam hasil analisis statistik.
 
 ---
 
-# Chapter 3: Statistical Experiments and Significance Testing  
-## (Eksperimen Statistik dan Pengujian Signifikansi)
+## Chapter 3: Statistical Experiments and Significance Testing (Eksperimen Statistik dan Pengujian Signifikansi)
 
 Chapter ini membahas penggunaan eksperimen statistik untuk mengambil
 keputusan berdasarkan data.
@@ -162,8 +160,7 @@ variasi acak.
 
 ---
 
-# Chapter 4: Regression and Prediction  
-## (Regresi dan Prediksi)
+## Chapter 4: Regression and Prediction (Regresi dan Prediksi)
 
 Chapter ini membahas metode regresi yang digunakan untuk menjelaskan
 hubungan antar variabel dan melakukan prediksi.
